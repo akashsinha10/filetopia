@@ -1,9 +1,9 @@
-package org.example.virtualkey.services;
+package org.example.filetopia.services;
 
-import org.example.virtualkey.screens.FileOptionsScreen;
-import org.example.virtualkey.screens.Screen;
-import org.example.virtualkey.screens.WelcomeScreen;
-import org.example.virtualkey.entities.Directory;
+import org.example.filetopia.screens.FileOptionsScreen;
+import org.example.filetopia.screens.Screen;
+import org.example.filetopia.screens.WelcomeScreen;
+import org.example.filetopia.entities.Directory;
 
 
 public class ScreenService {

@@ -1,4 +1,4 @@
-package org.example.virtualkey.screens;
+package org.example.filetopia.screens;
 
 public interface Screen {
 

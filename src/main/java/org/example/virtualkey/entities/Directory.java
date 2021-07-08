@@ -1,4 +1,4 @@
-package org.example.virtualkey.entities;
+package org.example.filetopia.entities;
 
 import java.util.ArrayList;
 import java.util.Collections;

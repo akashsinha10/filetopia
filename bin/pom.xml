@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>virtualkey</artifactId>
+    <artifactId>filetopia</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -39,7 +39,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.example.virtualkey.VirtualKeyApplication</mainClass>
+                            <mainClass>org.example.filetopia.filetopiaApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

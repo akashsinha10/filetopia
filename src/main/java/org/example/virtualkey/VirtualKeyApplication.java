@@ -1,8 +1,8 @@
-package org.example.virtualkey;
+package org.example.filetopia;
 
-import org.example.virtualkey.screens.WelcomeScreen;
+import org.example.filetopia.screens.WelcomeScreen;
 
-public class VirtualKeyApplication {
+public class filetopiaApplication {
 
     public static void main(String[] args) {
     	

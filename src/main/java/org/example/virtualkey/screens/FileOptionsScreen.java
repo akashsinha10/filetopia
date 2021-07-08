@@ -1,4 +1,4 @@
-package org.example.virtualkey.screens;
+package org.example.filetopia.screens;
 
 
 import java.io.File;
@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import org.example.virtualkey.entities.Directory;
-import org.example.virtualkey.services.ScreenService;
+import org.example.filetopia.entities.Directory;
+import org.example.filetopia.services.ScreenService;
 
 
 public class FileOptionsScreen implements Screen {

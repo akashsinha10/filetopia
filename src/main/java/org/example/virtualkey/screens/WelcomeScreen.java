@@ -1,7 +1,7 @@
-package org.example.virtualkey.screens;
+package org.example.filetopia.screens;
 
-import org.example.virtualkey.services.DirectoryService;
-import org.example.virtualkey.services.ScreenService;
+import org.example.filetopia.services.DirectoryService;
+import org.example.filetopia.services.ScreenService;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class WelcomeScreen implements Screen {
 
-    private String welcomeText = "Filetopia - One Stop Solution for File Management";
+    private String welcomeText = "filetopia - One Stop Solution for File Management";
     
     
     private ArrayList<String> options = new ArrayList<>();

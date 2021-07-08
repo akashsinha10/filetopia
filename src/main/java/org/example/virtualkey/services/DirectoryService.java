@@ -1,8 +1,8 @@
-package org.example.virtualkey.services;
+package org.example.filetopia.services;
 
 import java.io.File;
 
-import org.example.virtualkey.entities.Directory;
+import org.example.filetopia.entities.Directory;
 
 
 public class DirectoryService {

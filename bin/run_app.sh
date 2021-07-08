@@ -1,2 +1,2 @@
 #!/bin/bash
-java -cp target/virtualkey-1.0-SNAPSHOT.jar org.example.virtualkey.VirtualKeyApplication
+java -cp target/filetopia-1.0-SNAPSHOT.jar org.example.filetopia.filetopiaApplication
