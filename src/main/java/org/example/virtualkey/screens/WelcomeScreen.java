@@ -10,22 +10,40 @@ import java.util.Scanner;
 
 public class WelcomeScreen implements Screen {
 
-    private String welcomeText = "Welcome to VirtualKey!";
-    private String developerText = "Developer: Melvin Wu";
-
+    private String welcomeText = "Filetopia - One Stop Solution for File Management";
+    
+    
     private ArrayList<String> options = new ArrayList<>();
 
 
     public WelcomeScreen() {
-        options.add("1. Show Files");
-        options.add("2. Show File Options Menu");
-        options.add("3. Quit");
+        options.add("1. Show File Options Menu");
+        options.add("2. Show Files");
+        options.add("3. Exit");
 
     }
     
+
+    
+
+
+
     public void introWS() {
-    	System.out.println(welcomeText);
-        System.out.println(developerText);
+    	
+        int i;
+        for(i = 1; i <= welcomeText.length(); i++){
+            g.drawString(welcomeText.subString(0, i), x, y);//Where g is your Graphics object and x and y are the coordinates you want to draw at
+            try{
+                Thread.sleep(200);//0.5s pause between characters
+                }
+            catch(InterruptedException ex){
+                Thread.currentThread().interrupt();
+                }
+}
+
+
+
+
         System.out.println("\n");
         Show();
     }
@@ -81,7 +99,7 @@ public class WelcomeScreen implements Screen {
     	
     	//Finished TODO Task
 
-        System.out.println("List of Files: ");
+        System.out.println("Files: ");
     	DirectoryService.PrintFiles();
 
     }
