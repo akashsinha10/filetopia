@@ -87,7 +87,7 @@ public class WelcomeScreen implements Screen {
                 break;
                 
             default:
-                System.out.println("Invalid Option");
+                System.out.println("Please enter a valid option");
                 break;
         }
         

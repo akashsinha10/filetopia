@@ -24,7 +24,7 @@ public class FileOptionsScreen implements Screen {
     	options.add("1. Add a File");
         options.add("2. Delete A File");
         options.add("3. Search A File");
-        options.add("4. Return to Menu");
+        options.add("4. Main Menu");
         
     }
     
@@ -74,7 +74,7 @@ public class FileOptionsScreen implements Screen {
                 break;
                 */
             default:
-                System.out.println("Invalid Option");
+                System.out.println("Please enter a valid option");
                 break;
                 
                 
@@ -175,7 +175,7 @@ public class FileOptionsScreen implements Screen {
             returnOption = in.nextInt();
         }
         catch (InputMismatchException ex) {
-        	System.out.println("Invalid input");
+        	System.out.println("Please enter a valid input");
         }
         return returnOption;
 
